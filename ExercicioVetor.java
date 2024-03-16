@@ -1,8 +1,9 @@
 import java.util.Scanner;
 public class ExercicioVetor {
      public static void main(String[] args){
-         Scanner entrada = new Scanner(System.in);        
-         int[] vetor = new int[5];
+         Scanner entrada = new Scanner(System.in);
+        
+         int[] vetor = new int[200];
          int menorvalor = 999999999;
          int contacimam = 0;
          int qtdcont = 0;
@@ -27,7 +28,7 @@ public class ExercicioVetor {
                  System.out.printf("%d - Posição [%d] - Par%n", vetor[j], j);
              }
          }
-         System.out.printf("Média dos valores do vetor: %2f%nQuantidade de números acima da média: %d%nMenor valor: %d%nNúmero de incidência do menor valor: %d", media, contacimam, menorvalor, qtdcont);
+         System.out.printf("Média dos valores do vetor: %.2f%nQuantidade de números acima da média: %d%nMenor valor: %d%nNúmero de incidência do menor valor: %d", media, contacimam, menorvalor, qtdcont);
      }
  }
 
