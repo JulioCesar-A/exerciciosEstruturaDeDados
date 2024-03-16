@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class quesito2 {
+public class ExercicioMatriz2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int somatotal = 0;
