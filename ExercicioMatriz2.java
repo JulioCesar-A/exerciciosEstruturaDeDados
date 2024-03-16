@@ -23,9 +23,6 @@ public class ExercicioMatriz2 {
                 }
             }
         }
-        System.out.printf("Soma total dos elementos: %d%n",somatotal);
-        System.out.printf("Soma dos elementos da primeira coluna: %d%n", somaCol0);
-        System.out.printf("Produto dos elementos da primeira linha: %d%n",prodLin0);
-        System.out.printf("Soma dos elementos da diagonal principal: %d%n", somaDiag);
+        System.out.printf("Soma total dos elementos: %d%nSoma dos elementos da primeira coluna: %d%nProduto dos elementos da primeira linha: %d%nSoma dos elementos da diagonal principal: %d",somatotal,somaCol0,prodLin0,somaDiag);
     }
 }
