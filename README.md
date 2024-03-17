@@ -1,1 +1,1 @@
-# exerciciosdiversos
+# exercíciosEstruturaDeDados
